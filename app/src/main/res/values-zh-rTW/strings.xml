@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">掃描成PDF</string>
+    <string name="share_target">加入掃描成PDF</string>
+    <string name="btn_camera">拍照</string>
+    <string name="btn_gallery">相簿</string>
+    <string name="btn_files">匯入\n檔案</string>
+    <string name="btn_save">儲存 PDF</string>
+    <string name="btn_share">分享 PDF</string>
+    <string name="btn_clear">全部清除</string>
+    <plurals name="page_count">
+        <item quantity="other">共 %d 頁</item>
+    </plurals>
+    <plurals name="added_pages">
+        <item quantity="other">已加入 %d 頁</item>
+    </plurals>
+    <string name="empty_hint">還沒有頁面。\n請按上方按鈕拍照，或加入相片、檔案。</string>
+    <string name="page_label">第 %1$d 頁</string>
+    <string name="btn_edit">裁切／濾鏡</string>
+    <string name="btn_rotate">旋轉</string>
+    <string name="btn_up">上移</string>
+    <string name="btn_down">下移</string>
+    <string name="btn_delete">刪除</string>
+    <string name="confirm_delete">要刪除第 %1$d 頁嗎？</string>
+    <string name="confirm_clear">要刪除全部頁面、重新開始嗎？</string>
+    <string name="yes_delete">刪除</string>
+    <string name="cancel">取消</string>
+    <string name="ok">好</string>
+    <string name="working_import">正在加入頁面…</string>
+    <string name="working_pdf">正在製作 PDF…</string>
+    <string name="working_pdf_n">正在製作 PDF…第 %1$d／%2$d 頁</string>
+    <string name="saved_ok">PDF 已儲存。</string>
+    <string name="error_import">無法開啟：%1$s</string>
+    <string name="error_pdf_locked">這個 PDF 有密碼保護，無法匯入。</string>
+    <string name="error_no_camera">找不到相機 App。</string>
+    <string name="error_camera">無法讀取剛拍的照片，請再試一次。</string>
+    <string name="error_no_picker">這支手機找不到檔案選擇器。</string>
+    <string name="error_no_pages">請先加入至少一頁。</string>
+    <string name="error_save">無法製作 PDF。</string>
+    <string name="share_title">分享 PDF</string>
+    <string name="edit_title">裁切與濾鏡</string>
+    <string name="edit_hint">把 4 個藍點拖到文件的四個角。</string>
+    <string name="filter_original">原圖</string>
+    <string name="filter_gray">灰階</string>
+    <string name="filter_bw">黑白</string>
+    <string name="btn_reset_crop">不裁切</string>
+    <string name="btn_done">完成</string>
+    <string name="error_crop">裁切範圍太小或歪斜，改用整頁。</string>
+    <string name="file_prefix">掃描</string>
+</resources>

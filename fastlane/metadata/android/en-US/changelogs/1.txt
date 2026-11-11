@@ -1,0 +1,1 @@
+First release: camera / photo / PDF import, 4-corner crop with perspective correction, grayscale and black & white filters, rotate / reorder / delete pages, save or share as A4 PDF.

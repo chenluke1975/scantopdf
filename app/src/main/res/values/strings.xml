@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scan to PDF</string>
+    <string name="share_target">Add to Scan to PDF</string>
+    <string name="btn_camera">Take\nphoto</string>
+    <string name="btn_gallery">Photos</string>
+    <string name="btn_files">Files\n(PDF)</string>
+    <string name="btn_save">Save PDF</string>
+    <string name="btn_share">Share PDF</string>
+    <string name="btn_clear">Clear all</string>
+    <plurals name="page_count">
+        <item quantity="one">%d page</item>
+        <item quantity="other">%d pages</item>
+    </plurals>
+    <plurals name="added_pages">
+        <item quantity="one">Added %d page</item>
+        <item quantity="other">Added %d pages</item>
+    </plurals>
+    <string name="empty_hint">No pages yet.\nTap a button above to take a photo or add pictures and files.</string>
+    <string name="page_label">Page %1$d</string>
+    <string name="btn_edit">Crop / filter</string>
+    <string name="btn_rotate">Rotate</string>
+    <string name="btn_up">Up</string>
+    <string name="btn_down">Down</string>
+    <string name="btn_delete">Delete</string>
+    <string name="confirm_delete">Delete page %1$d?</string>
+    <string name="confirm_clear">Delete all pages and start over?</string>
+    <string name="yes_delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="working_import">Adding pages…</string>
+    <string name="working_pdf">Making PDF…</string>
+    <string name="working_pdf_n">Making PDF… page %1$d of %2$d</string>
+    <string name="saved_ok">PDF saved.</string>
+    <string name="error_import">Couldn\'t open: %1$s</string>
+    <string name="error_pdf_locked">This PDF is password-protected and can\'t be imported.</string>
+    <string name="error_no_camera">No camera app found.</string>
+    <string name="error_camera">The photo couldn\'t be read. Please try again.</string>
+    <string name="error_no_picker">No file picker found on this phone.</string>
+    <string name="error_no_pages">Add at least one page first.</string>
+    <string name="error_save">Couldn\'t create the PDF.</string>
+    <string name="share_title">Share PDF</string>
+    <string name="edit_title">Crop &amp; filter</string>
+    <string name="edit_hint">Drag the 4 blue dots onto the corners of the page.</string>
+    <string name="filter_original">Original</string>
+    <string name="filter_gray">Grayscale</string>
+    <string name="filter_bw">B&amp;W</string>
+    <string name="btn_reset_crop">No crop</string>
+    <string name="btn_done">Done</string>
+    <string name="error_crop">Crop area is too small or twisted; using the whole page.</string>
+    <string name="file_prefix">Scan</string>
+</resources>

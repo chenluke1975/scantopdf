@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_title"
+        android:textColor="@color/ink"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_hint"
+        android:textColor="@color/muted"
+        android:textSize="18sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_weight="1"
+        android:background="#2B3440">
+
+        <io.github.chenluke1975.scantopdf.CropView
+            android:id="@+id/crop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/filterOriginal" style="@style/SmallButton" android:layout_height="60dp" android:text="@string/filter_original" />
+        <Button android:id="@+id/filterGray" style="@style/SmallButton" android:layout_height="60dp" android:text="@string/filter_gray" />
+        <Button android:id="@+id/filterBw" style="@style/SmallButton" android:layout_height="60dp" android:layout_marginEnd="0dp" android:text="@string/filter_bw" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/rotate" style="@style/SmallButton" android:layout_height="60dp" android:text="@string/btn_rotate" />
+        <Button android:id="@+id/resetCrop" style="@style/SmallButton" android:layout_height="60dp" android:layout_marginEnd="0dp" android:text="@string/btn_reset_crop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/BigButton.Secondary"
+            android:layout_width="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/done"
+            style="@style/BigButton"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="@string/btn_done"
+            android:textSize="22sp" />
+    </LinearLayout>
+</LinearLayout>

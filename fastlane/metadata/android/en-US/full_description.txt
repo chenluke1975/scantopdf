@@ -1,0 +1,12 @@
+<p>Scan paper documents with your camera, or pick pictures and PDFs you already have, and turn them into a single PDF you can save or share.</p>
+<p><b>Features</b></p>
+<ul>
+<li>Take photos with your phone's camera app, pick several photos at once, or import existing images and PDF files (every PDF page becomes a page).</li>
+<li>Crop each page by dragging 4 corners – the page is straightened (perspective correction), with a magnifier while you drag.</li>
+<li>Filters: original, grayscale, or high-contrast black &amp; white that removes shadows from paper.</li>
+<li>Rotate, reorder (up/down) and delete pages.</li>
+<li>Export as an A4 PDF (portrait or landscape per page), save it anywhere with the system "Save as" screen, or share it to any app.</li>
+<li>Share images or PDFs from other apps into Scan to PDF.</li>
+<li>Big, simple buttons. Traditional Chinese and English.</li>
+</ul>
+<p><b>Privacy</b>: no permissions at all – not even Internet or Camera. Photos are taken by the system camera app, and everything stays on your phone. No ads, no tracking.</p>

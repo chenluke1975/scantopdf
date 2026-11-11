@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BigButton">
+        <item name="android:layout_height">72dp</item>
+        <item name="android:background">@drawable/bg_primary</item>
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:paddingStart">6dp</item>
+        <item name="android:paddingEnd">6dp</item>
+    </style>
+    <style name="BigButton.Secondary">
+        <item name="android:background">@drawable/bg_secondary</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="SmallButton" parent="BigButton.Secondary">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:paddingStart">2dp</item>
+        <item name="android:paddingEnd">2dp</item>
+    </style>
+</resources>
